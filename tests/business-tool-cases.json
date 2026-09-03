@@ -1,0 +1,225 @@
+{
+  "cases": [
+    {
+      "tool_id": "calculate_experiment_sample_size",
+      "path": "scripts/analytics/calculate_experiment_sample_size.py",
+      "input": {
+        "baseline_rate": 0.18,
+        "expected_variant_rate": 0.21,
+        "confidence_level": 0.95,
+        "power": 0.8,
+        "daily_exposed_users": 1200
+      }
+    },
+    {
+      "tool_id": "calculate_product_metrics",
+      "path": "scripts/analytics/calculate_product_metrics.py",
+      "input": {
+        "period": {
+          "signups": 1200,
+          "activated_users": 420,
+          "monthly_active_users": 900,
+          "weekly_active_users": 360,
+          "retained_users": 300,
+          "paying_accounts": 84,
+          "revenue": 25200,
+          "starting_accounts": 100,
+          "churned_accounts": 8
+        }
+      }
+    },
+    {
+      "tool_id": "calculate_retention_cohorts",
+      "path": "scripts/analytics/calculate_retention_cohorts.py",
+      "input": {
+        "cohorts": [
+          {
+            "cohort": "2026-06",
+            "start_users": 100,
+            "retained_counts": [
+              65,
+              48,
+              39
+            ]
+          },
+          {
+            "cohort": "2026-07",
+            "start_users": 120,
+            "retained_counts": [
+              72,
+              57,
+              44
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "tool_id": "evaluate_evidence_rubric",
+      "path": "scripts/discovery/evaluate_evidence_rubric.py",
+      "input": {
+        "decision_name": "expand onboarding automation",
+        "required_classes": [
+          "FACT_USER",
+          "FACT_TOOL",
+          "ASSUMPTION"
+        ],
+        "evidence_items": [
+          {
+            "title": "interviews",
+            "evidence_class": "FACT_USER",
+            "source_type": "interview",
+            "segment": "ops managers",
+            "decision_relevance": "high",
+            "timeframe": "last 30 days",
+            "observed_behavior": "manual follow-up dominates setup",
+            "limitations": "small sample"
+          },
+          {
+            "title": "activation funnel",
+            "evidence_class": "FACT_TOOL",
+            "source_type": "analytics export",
+            "segment": "ops managers",
+            "decision_relevance": "high",
+            "metric": "activation rate",
+            "timeframe": "last 60 days",
+            "limitations": "event naming gap"
+          }
+        ]
+      }
+    },
+    {
+      "tool_id": "compare_prioritization_options",
+      "path": "scripts/discovery/compare_prioritization_options.py",
+      "input": {
+        "criteria": [
+          {
+            "name": "customer_value",
+            "weight": 5
+          },
+          {
+            "name": "strategic_fit",
+            "weight": 3
+          },
+          {
+            "name": "time_to_learning",
+            "weight": 2
+          }
+        ],
+        "options": [
+          {
+            "name": "activation redesign",
+            "scores": {
+              "customer_value": 4,
+              "strategic_fit": 5,
+              "time_to_learning": 4
+            }
+          },
+          {
+            "name": "new premium workflow",
+            "scores": {
+              "customer_value": 3,
+              "strategic_fit": 4,
+              "time_to_learning": 2
+            }
+          }
+        ]
+      }
+    },
+    {
+      "tool_id": "validate_user_story",
+      "path": "scripts/requirements/validate_user_story.py",
+      "input": {
+        "story": {
+          "actor": "team admin",
+          "need": "to approve member access requests and review basic context",
+          "outcome": "I can unblock legitimate teammates without manual support intervention",
+          "dependencies": [
+            "audit log event"
+          ],
+          "non_goals": [
+            "full SCIM provisioning"
+          ]
+        }
+      }
+    },
+    {
+      "tool_id": "validate_acceptance_criteria",
+      "path": "scripts/requirements/validate_acceptance_criteria.py",
+      "input": {
+        "criteria": [
+          {
+            "text": "Shows the pending request with requester name and team.",
+            "category": "happy_path"
+          },
+          {
+            "text": "Prevents approval when the requester email domain is blocked.",
+            "category": "validation"
+          },
+          {
+            "text": "Records an audit event for each approval or rejection.",
+            "category": "telemetry"
+          }
+        ]
+      }
+    },
+    {
+      "tool_id": "validate_roadmap_consistency",
+      "path": "scripts/delivery/validate_roadmap_consistency.py",
+      "input": {
+        "items": [
+          {
+            "id": "R1",
+            "theme": "Activation",
+            "quarter": "2026-Q4",
+            "objective": "Improve activation for team admins",
+            "metric": "activation rate",
+            "owner": "product",
+            "dependencies": []
+          },
+          {
+            "id": "R2",
+            "theme": "Monetization",
+            "quarter": "2026-Q4",
+            "objective": "Improve team upgrade conversion",
+            "metric": "upgrade rate",
+            "owner": "product",
+            "dependencies": [
+              "R1"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "tool_id": "validate_okr_cascade",
+      "path": "scripts/delivery/validate_okr_cascade.py",
+      "input": {
+        "objectives": [
+          {
+            "id": "O1",
+            "name": "Improve first-team activation quality",
+            "owner": "product"
+          }
+        ],
+        "key_results": [
+          {
+            "id": "KR1",
+            "objective_id": "O1",
+            "metric": "activation rate",
+            "target": "0.45",
+            "baseline": "0.31"
+          }
+        ],
+        "initiatives": [
+          {
+            "id": "I1",
+            "key_result_id": "KR1",
+            "name": "Admin approval flow redesign",
+            "owner": "product"
+          }
+        ]
+      }
+    }
+  ]
+}

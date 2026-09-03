@@ -1,0 +1,16 @@
+name: Compatibility report
+description: Report compatibility findings for a runtime or local environment
+title: "[Compatibility]: "
+body:
+  - type: input
+    id: runtime
+    attributes:
+      label: Runtime
+    validations:
+      required: true
+  - type: textarea
+    id: findings
+    attributes:
+      label: Findings
+    validations:
+      required: true

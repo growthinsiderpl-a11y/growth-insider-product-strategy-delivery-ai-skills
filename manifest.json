@@ -1,0 +1,295 @@
+{
+  "schema_version": "1.0.0",
+  "package": {
+    "id": "growth-insider-product-strategy-delivery-ai-skills",
+    "title": "Growth Insider Product Strategy & Delivery AI Skills",
+    "version": "1.0.0-rc.1",
+    "root": "SKILL.md",
+    "author": "Growth Insider",
+    "maintainer": "Growth Insider",
+    "publisher": "Growth Insider",
+    "organization": "Growth Insider",
+    "website": "https://growthinsider.pl/en/",
+    "contact": "support@growthinsider.pl",
+    "location": "Wrocław, Poland",
+    "license": "MIT",
+    "status": "release-candidate",
+    "architecture": "COMPACT_SKILL_HUBS_PLAYBOOKS_TOOLS"
+  },
+  "hubs": [
+    {
+      "id": "product-strategy-and-portfolio-decisions",
+      "title": "Product Strategy and Portfolio Decisions",
+      "path": "references/hubs/product-strategy-and-portfolio-decisions.md"
+    },
+    {
+      "id": "product-discovery-and-opportunity-validation",
+      "title": "Product Discovery and Opportunity Validation",
+      "path": "references/hubs/product-discovery-and-opportunity-validation.md"
+    },
+    {
+      "id": "product-market-fit-and-customer-evidence",
+      "title": "Product-Market Fit and Customer Evidence",
+      "path": "references/hubs/product-market-fit-and-customer-evidence.md"
+    },
+    {
+      "id": "product-analytics-metrics-and-learning",
+      "title": "Product Analytics, Metrics, and Learning",
+      "path": "references/hubs/product-analytics-metrics-and-learning.md"
+    },
+    {
+      "id": "prioritization-roadmapping-and-tradeoffs",
+      "title": "Prioritization, Roadmapping, and Trade-offs",
+      "path": "references/hubs/prioritization-roadmapping-and-tradeoffs.md"
+    },
+    {
+      "id": "requirements-prds-and-user-stories",
+      "title": "Requirements, PRDs, and User Stories",
+      "path": "references/hubs/requirements-prds-and-user-stories.md"
+    },
+    {
+      "id": "agile-delivery-and-release-planning",
+      "title": "Agile Delivery and Release Planning",
+      "path": "references/hubs/agile-delivery-and-release-planning.md"
+    },
+    {
+      "id": "ux-research-and-customer-journeys",
+      "title": "UX Research and Customer Journeys",
+      "path": "references/hubs/ux-research-and-customer-journeys.md"
+    },
+    {
+      "id": "product-design-and-interface-quality",
+      "title": "Product Design and Interface Quality",
+      "path": "references/hubs/product-design-and-interface-quality.md"
+    },
+    {
+      "id": "monetization-pricing-and-retention",
+      "title": "Monetization, Pricing, and Retention",
+      "path": "references/hubs/monetization-pricing-and-retention.md"
+    },
+    {
+      "id": "stakeholder-board-and-product-communication",
+      "title": "Stakeholder, Board, and Product Communication",
+      "path": "references/hubs/stakeholder-board-and-product-communication.md"
+    },
+    {
+      "id": "product-operations-project-and-portfolio-governance",
+      "title": "Product Operations, Project, and Portfolio Governance",
+      "path": "references/hubs/product-operations-project-and-portfolio-governance.md"
+    },
+    {
+      "id": "product-to-engineering-translation",
+      "title": "Product-to-Engineering Translation",
+      "path": "references/hubs/product-to-engineering-translation.md"
+    }
+  ],
+  "playbooks": [
+    {
+      "id": "opportunity-assessment",
+      "title": "Opportunity Assessment",
+      "path": "references/playbooks/opportunity-assessment.md"
+    },
+    {
+      "id": "discovery-interview-plan",
+      "title": "Discovery Interview Plan",
+      "path": "references/playbooks/discovery-interview-plan.md"
+    },
+    {
+      "id": "assumption-mapping",
+      "title": "Assumption Mapping",
+      "path": "references/playbooks/assumption-mapping.md"
+    },
+    {
+      "id": "pmf-evidence-rubric",
+      "title": "PMF Evidence Rubric",
+      "path": "references/playbooks/pmf-evidence-rubric.md"
+    },
+    {
+      "id": "product-experiment-design",
+      "title": "Product Experiment Design",
+      "path": "references/playbooks/product-experiment-design.md"
+    },
+    {
+      "id": "prioritization-comparison",
+      "title": "Prioritization Comparison",
+      "path": "references/playbooks/prioritization-comparison.md"
+    },
+    {
+      "id": "roadmap-consistency-check",
+      "title": "Roadmap Consistency Check",
+      "path": "references/playbooks/roadmap-consistency-check.md"
+    },
+    {
+      "id": "prd-quality-review",
+      "title": "PRD Quality Review",
+      "path": "references/playbooks/prd-quality-review.md"
+    },
+    {
+      "id": "user-story-validation",
+      "title": "User Story Validation",
+      "path": "references/playbooks/user-story-validation.md"
+    },
+    {
+      "id": "acceptance-criteria-validation",
+      "title": "Acceptance Criteria Validation",
+      "path": "references/playbooks/acceptance-criteria-validation.md"
+    },
+    {
+      "id": "sprint-planning-tradeoffs",
+      "title": "Sprint Planning Trade-offs",
+      "path": "references/playbooks/sprint-planning-tradeoffs.md"
+    },
+    {
+      "id": "release-decision-gate",
+      "title": "Release Decision Gate",
+      "path": "references/playbooks/release-decision-gate.md"
+    },
+    {
+      "id": "journey-mapping-workshop",
+      "title": "Journey Mapping Workshop",
+      "path": "references/playbooks/journey-mapping-workshop.md"
+    },
+    {
+      "id": "retention-diagnosis",
+      "title": "Retention Diagnosis",
+      "path": "references/playbooks/retention-diagnosis.md"
+    },
+    {
+      "id": "packaging-and-monetization-design",
+      "title": "Packaging and Monetization Design",
+      "path": "references/playbooks/packaging-and-monetization-design.md"
+    },
+    {
+      "id": "board-update-narrative",
+      "title": "Board Update Narrative",
+      "path": "references/playbooks/board-update-narrative.md"
+    },
+    {
+      "id": "okr-cascade-validation",
+      "title": "OKR Cascade Validation",
+      "path": "references/playbooks/okr-cascade-validation.md"
+    },
+    {
+      "id": "atlassian-jira-mutation-confirmation",
+      "title": "Atlassian and Jira Mutation Confirmation",
+      "path": "references/playbooks/atlassian-jira-mutation-confirmation.md"
+    },
+    {
+      "id": "engineering-handoff-packet",
+      "title": "Engineering Handoff Packet",
+      "path": "references/playbooks/engineering-handoff-packet.md"
+    }
+  ],
+  "tools": [
+    {
+      "id": "calculate-experiment-sample-size",
+      "path": "scripts/analytics/calculate_experiment_sample_size.py",
+      "domain": "analytics",
+      "description": "Estimate per-variant sample sizes for product experiments from explicit assumptions."
+    },
+    {
+      "id": "calculate-product-metrics",
+      "path": "scripts/analytics/calculate_product_metrics.py",
+      "domain": "analytics",
+      "description": "Calculate explicit activation, engagement, retention, and monetization metrics from supplied counts."
+    },
+    {
+      "id": "calculate-retention-cohorts",
+      "path": "scripts/analytics/calculate_retention_cohorts.py",
+      "domain": "analytics",
+      "description": "Calculate cohort retention tables from explicit retained counts by period."
+    },
+    {
+      "id": "evaluate-evidence-rubric",
+      "path": "scripts/discovery/evaluate_evidence_rubric.py",
+      "domain": "discovery",
+      "description": "Check completeness and balance of product evidence without generating a fake PMF score."
+    },
+    {
+      "id": "compare-prioritization-options",
+      "path": "scripts/discovery/compare_prioritization_options.py",
+      "domain": "discovery",
+      "description": "Compare prioritization options using only user-supplied criteria and weights."
+    },
+    {
+      "id": "validate-user-story",
+      "path": "scripts/requirements/validate_user_story.py",
+      "domain": "requirements",
+      "description": "Validate whether a user story is outcome-linked, testable, and ready for refinement."
+    },
+    {
+      "id": "validate-acceptance-criteria",
+      "path": "scripts/requirements/validate_acceptance_criteria.py",
+      "domain": "requirements",
+      "description": "Validate whether acceptance criteria are observable, complete, and categorized."
+    },
+    {
+      "id": "validate-roadmap-consistency",
+      "path": "scripts/delivery/validate_roadmap_consistency.py",
+      "domain": "delivery",
+      "description": "Check roadmap items for objective alignment, dependency clarity, and release sequencing gaps."
+    },
+    {
+      "id": "validate-okr-cascade",
+      "path": "scripts/delivery/validate_okr_cascade.py",
+      "domain": "delivery",
+      "description": "Check whether objectives, key results, and initiatives form a complete cascade."
+    }
+  ],
+  "maintenance_tools": [
+    {
+      "id": "validate-repository",
+      "path": "scripts/validate_repository.py"
+    },
+    {
+      "id": "validate-behavioral-evals",
+      "path": "scripts/validate_behavioral_evals.py"
+    }
+  ],
+  "adapters": [
+    {
+      "id": "agent-skills-compatible",
+      "path": "adapters/agent-skills-compatible.md"
+    },
+    {
+      "id": "anthropic-claude",
+      "path": "adapters/anthropic-claude.md"
+    },
+    {
+      "id": "openai-chatgpt",
+      "path": "adapters/openai-chatgpt.md"
+    },
+    {
+      "id": "openai-codex",
+      "path": "adapters/openai-codex.md"
+    }
+  ],
+  "docs": [
+    "docs/baseline-inventory.md",
+    "docs/baseline-path-fingerprint.txt",
+    "docs/capability-parity-matrix.csv",
+    "docs/capability-parity-matrix.md",
+    "docs/comparative-restoration-report.md",
+    "docs/cross-skill-routing-boundaries.md",
+    "docs/github-release-and-discoverability.md",
+    "docs/platform-compatibility.md",
+    "docs/public-release-checklist.md",
+    "docs/repository-semantic-audit.md",
+    "docs/social-preview-brief.md"
+  ],
+  "examples": [
+    "examples/assess-product-portfolio-tradeoffs.md",
+    "examples/plan-discovery-interviews.md",
+    "examples/review-prd-and-user-stories.md",
+    "examples/diagnose-retention-drop.md",
+    "examples/prepare-board-product-update.md",
+    "examples/translate-product-decision-to-engineering.md"
+  ],
+  "tests": [
+    "tests/routing-safety-cases.json",
+    "tests/domain-behavior-cases.json",
+    "tests/business-tool-cases.json",
+    "tests/test_repository_contract.py",
+    "tests/test_tools.py"
+  ]
+}

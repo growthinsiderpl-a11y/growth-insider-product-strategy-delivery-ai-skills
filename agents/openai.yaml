@@ -1,0 +1,6 @@
+interface:
+  display_name: "Growth Insider Product Strategy & Delivery AI Skills"
+  short_description: "Constraint-first product operating skill"
+  default_prompt: "Diagnose the real product constraint, label evidence carefully, choose the minimum sufficient product move, and preserve implementation, measurement, and review gates."
+policy:
+  allow_implicit_invocation: true

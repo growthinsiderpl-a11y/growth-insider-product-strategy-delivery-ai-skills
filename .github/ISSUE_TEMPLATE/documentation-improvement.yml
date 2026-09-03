@@ -1,0 +1,14 @@
+name: Documentation improvement
+description: Suggest a documentation improvement for product hubs, playbooks, or docs
+title: "[Docs]: "
+body:
+  - type: textarea
+    id: current
+    attributes:
+      label: Current gap
+    validations:
+      required: true
+  - type: textarea
+    id: proposed
+    attributes:
+      label: Proposed improvement

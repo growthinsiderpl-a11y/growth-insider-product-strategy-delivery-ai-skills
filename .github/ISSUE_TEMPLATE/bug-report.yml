@@ -1,0 +1,15 @@
+name: Bug report
+description: Report a functional issue in the product skill package
+title: "[Bug]: "
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: What happened?
+    validations:
+      required: true
+  - type: textarea
+    id: validation
+    attributes:
+      label: Validation context
+      description: Include validator or test output if relevant.

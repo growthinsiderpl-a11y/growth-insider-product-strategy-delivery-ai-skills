@@ -1,0 +1,14 @@
+name: Skill improvement
+description: Suggest an improvement to product routing, boundaries, or procedures
+title: "[Skill]: "
+body:
+  - type: textarea
+    id: context
+    attributes:
+      label: Product problem
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Improvement proposal

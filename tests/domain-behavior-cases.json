@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.0.0",
+  "cases": [
+    {
+      "id": "D01_STRATEGY",
+      "request": "We can only fund one major bet next quarter. Should we deepen activation for current customers or enter a new segment?",
+      "expected_behavior": [
+        "identify the strategic choice and capacity constraint",
+        "compare bets using explicit criteria and evidence"
+      ]
+    },
+    {
+      "id": "D02_DISCOVERY",
+      "request": "Support hears repeated complaints about approvals. I need a discovery plan that proves whether this is a real product opportunity.",
+      "expected_behavior": [
+        "design a bounded discovery approach",
+        "separate problem evidence from solution assumptions"
+      ]
+    },
+    {
+      "id": "D03_PMF",
+      "request": "We have decent revenue but retention varies wildly by segment. Tell me whether we really have product-market fit.",
+      "expected_behavior": [
+        "keep PMF discussion evidence-based",
+        "avoid fake product-fit scores"
+      ]
+    },
+    {
+      "id": "D04_DELIVERY",
+      "request": "Review this PRD and user stories before engineering estimates the work.",
+      "expected_behavior": [
+        "inspect scope and acceptance quality",
+        "prepare a product-to-engineering handoff view"
+      ]
+    },
+    {
+      "id": "D05_RETENTION",
+      "request": "Diagnose why new team accounts activate and then disappear by week three.",
+      "expected_behavior": [
+        "use cohorts and value-loop reasoning",
+        "distinguish product retention from marketing lifecycle work"
+      ]
+    }
+  ]
+}
