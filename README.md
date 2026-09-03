@@ -79,17 +79,17 @@ The package is organized around product problems, not job-title simulation.
 
 ```text
 growth-insider-product-strategy-delivery-ai-skills/
-??? SKILL.md
-??? manifest.json
-??? references/
-?   ??? hubs/
-?   ??? playbooks/
-??? scripts/
-??? adapters/
-??? examples/
-??? docs/
-??? tests/
-??? .github/
+├── SKILL.md
+├── manifest.json
+├── references/
+│   ├── hubs/
+│   └── playbooks/
+├── scripts/
+├── adapters/
+├── examples/
+├── docs/
+├── tests/
+└── .github/
 ```
 
 ## Platform Compatibility
@@ -123,7 +123,7 @@ That is custom operating logic, not a generic prompt bundle.
 
 [Growth Insider](https://growthinsider.pl/en/) works across product, software, and growth with a constraint-first approach. The aim is not to maximize complexity; it is to reach the minimum sufficient solution that matches the real constraint, can be implemented, can be measured, and can be reviewed.
 
-Growth Insider is based in WrocĹ‚aw, Poland. Contact: [support@growthinsider.pl](mailto:support@growthinsider.pl).
+Growth Insider is based in Wrocław, Poland. Contact: [support@growthinsider.pl](mailto:support@growthinsider.pl).
 
 ## Security and Privacy
 
