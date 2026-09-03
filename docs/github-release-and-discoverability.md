@@ -1,5 +1,10 @@
 # GitHub Release and Discoverability
 
+## Canonical repository
+- URL: https://github.com/growthinsiderpl-a11y/growth-insider-product-strategy-delivery-ai-skills
+- Website: https://growthinsider.pl/en/
+
+
 ## Release identity
 
 - repository name: `growth-insider-product-strategy-delivery-ai-skills`

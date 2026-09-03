@@ -1,9 +1,9 @@
 # Public Release Checklist
 
-Status vocabulary: `PASS` · `FAIL` · `NOT VERIFIED` · `NOT APPLICABLE` · `BLOCKED`
+Status vocabulary: `PASS` Â· `FAIL` Â· `NOT VERIFIED` Â· `NOT APPLICABLE` Â· `BLOCKED`
 
 Verification date: 2026-09-03  
-Package status: `RELEASE_CANDIDATE` · `STATICALLY_VERIFIED` · `LOCALLY_TESTED` · `NOT MODEL TESTED` · `NOT GIT RELEASED`
+Package status: `RELEASE_CANDIDATE` Â· `STATICALLY_VERIFIED` Â· `LOCALLY_TESTED` Â· `NOT MODEL TESTED` Â· `GIT_PUBLISHED_RC`
 
 ## Local package validation
 
@@ -22,7 +22,7 @@ Package status: `RELEASE_CANDIDATE` · `STATICALLY_VERIFIED` · `LOCALLY_TESTED`
 | Product hub semantic truncation patterns | PASS (0 known fragments) |
 | `SUPPORT.md` present | PASS |
 | Examples are illustrative, not performance promises | PASS |
-| `CITATION.cff` has no fake `repository-code` | PASS |
+| `CITATION.cff` `repository-code` matches real GitHub URL | PASS |
 | CI workflow contract present (`requirements-ci.txt` + least-privilege Actions) | PASS (LOCAL WORKFLOW CONTRACT VALIDATED) |
 
 ## Not yet verified
@@ -30,7 +30,7 @@ Package status: `RELEASE_CANDIDATE` · `STATICALLY_VERIFIED` · `LOCALLY_TESTED`
 | Check | Status |
 | --- | --- |
 | GitHub Actions run on GitHub-hosted runners | NOT VERIFIED |
-| Git repository initialized / pushed | NOT VERIFIED |
+| Git repository initialized / pushed | PASS |
 | GitHub repository settings / topics / About | NOT VERIFIED |
 | Live Agent Skills model selection testing | NOT VERIFIED / NOT MODEL TESTED |
 | Social preview uploaded to GitHub | NOT VERIFIED |

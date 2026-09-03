@@ -38,6 +38,12 @@ The package does not begin with role-play. It begins with the product problem, t
 
 ## Quick Start
 
+Clone or download the release candidate:
+
+```bash
+git clone https://github.com/growthinsiderpl-a11y/growth-insider-product-strategy-delivery-ai-skills.git
+``` 
+
 1. Place the `growth-insider-product-strategy-delivery-ai-skills` folder in an Agent Skills compatible location.
 2. Keep the folder name unchanged.
 3. Start with a concrete product question and any known evidence, metrics, or constraints.
@@ -117,7 +123,7 @@ That is custom operating logic, not a generic prompt bundle.
 
 [Growth Insider](https://growthinsider.pl/en/) works across product, software, and growth with a constraint-first approach. The aim is not to maximize complexity; it is to reach the minimum sufficient solution that matches the real constraint, can be implemented, can be measured, and can be reviewed.
 
-Growth Insider is based in Wrocław, Poland. Contact: [support@growthinsider.pl](mailto:support@growthinsider.pl).
+Growth Insider is based in WrocĹ‚aw, Poland. Contact: [support@growthinsider.pl](mailto:support@growthinsider.pl).
 
 ## Security and Privacy
 
